@@ -1,0 +1,59 @@
+<link rel="stylesheet" href="index.css">
+<main id="main">
+    <div>
+        <h1 id="title">Survey Form</h1>
+        <h3 id="description">collecting data form user</h3>
+    </div>
+    <hr>
+    <form action="#" id="survey-form">
+        <fieldset>
+            <legend>User information</legend>
+            <label for="name" id="name-label">Name</label> <br>
+            <input type="text" id="name" name="name" required placeholder="your name.."> <br>
+
+            <label for="email" id="email-label">Email</label> <br>
+            <input type="email" id="email" name="email" required placeholder="your email.."> <br>
+
+            <label for="number" id="number-label">Age</label> <br>
+            <input type="number" id="number" name="number" required placeholder="your age.." min="1" max="99"> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Dropdow</legend>
+            <label for="dropdown" id="dropdown-label">Choose</label> <br> <br>
+            <select name="dropdown" id="dropdown" required>
+                <option disabled selected value>--select an option--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="3">4</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Radio</legend>
+            <p>Choose</p>
+            <input type="radio" id="radio-value-1" name="radio-value" value="radio-value-1" checked> <label for="radio-value-1">Value 1</label> <br>
+            <input type="radio" id="radio-value-2" name="radio-value" value="radio-value-2"> <label for="radio-value-2">Value 2</label> <br>
+            <input type="radio" id="radio-value-3" name="radio-value" value="radio-value-3"> <label for="radio-value-3">Value 3</label> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <p>Choose</p>
+            <input type="checkbox" id="checkbox-value-1" name="checkbox-value" value="checkbox-value-1"> <label for="checkbox-value-1">Value 1</label> <br>
+            <input type="checkbox" id="checkbox-value-2" name="checkbox-value" value="checkbox-value-2" checked> <label for="checkbox-value-2">Value 2</label> <br>
+            <input type="checkbox" id="checkbox-value-3" name="checkbox-value" value="checkbox-value-3"> <label for="checkbox-value-3">Value 3</label> <br>
+            <input type="checkbox" id="checkbox-value-4" name="checkbox-value" value="checkbox-value-4"> <label for="checkbox-value-4">Value 4</label> <br>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Text area</legend>
+            <p>Comment</p>
+            <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        </fieldset>
+        <br>
+        <input type="submit" id="submit" name="submit">
+        <br>
+    </form>
+</main>
