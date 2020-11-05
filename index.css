@@ -41,7 +41,9 @@ legend {
 #email-label,
 #number-label,
 #dropdown-label,
-p {
+#radio-label,
+#checkbox-label,
+#comment-label {
     display: block;
     width: 100%;
     background-color: cyan;
@@ -53,7 +55,9 @@ p {
 #email-label:hover,
 #number-label:hover,
 #dropdown-label:hover,
-p:hover {
+#radio-label:hover,
+#checkbox-label:hover,
+#comment-label:hover {
     background-color: orange;
 }
 
