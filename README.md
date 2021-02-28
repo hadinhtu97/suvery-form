@@ -20,3 +20,6 @@ A page that collects user input
 14. Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.
 15. Inside the form element, I am presented with a textarea at the end for additional comments.
 16. Inside the form element, I am presented with a button with `id="submit"` to submit all my inputs.
+
+### Demo
+[Link Demo](https://codepen.io/hadinhtu97/full/yLJqXMR)
